@@ -2,7 +2,7 @@ import pandas as pd
 
 
 #location of the json file
-nba_json = pd.read_json(r'C:\Users\Aaruran\Desktop\python_work\Nbafantasy\nba_stats.json', orient='columns')
+nba_json = pd.read_json(r'C:\Users\nba_stats.json', orient='columns')
 
 #this will clean the data being used
 def prepare_stats(nba_stats):
